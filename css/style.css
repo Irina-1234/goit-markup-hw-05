@@ -320,9 +320,6 @@ a {
 .work-item:not(:last-child) {
     margin-right: 30px;
 }
-.work-item:hover .work-img-text {
-    transform: translateY(0);
-}
 .work-item-wrap {
     position: relative;
     overflow: hidden;
@@ -343,7 +340,6 @@ a {
     height: 100%;
     text-align: center;
     transform: translateY(75%);
-    transition: transform, 250ms, liner;
 }
 
 /* -------------------TEAM---------------------- */
